@@ -1,0 +1,68 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: Idroid;
+    src: url(../fontes/idroid.otf);
+}
+
+:root{
+    --verdeclaro: #d5f7c8;
+    --verde-azul: #295c3e;
+    --amarelo: #DBD444;
+    --verde: #79d84a;
+
+    --fontepadrao: 'Montserrat', Arial, sans-serif;
+    --fontedestaque: 'Bebas Neue';
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--verdeclaro);
+}
+
+body h2 {
+    font-family: 'Idroid';
+}
+
+body p {
+    font-family: var(--fontepadrao);
+}
+
+header {
+    background-image: linear-gradient(to bottom, var(--verde), var(--verde-azul) );
+    height: 150px;
+    padding: 5px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+header h1 {
+    text-align: center;
+    font-family: var(--fontedestaque);
+    font-size: 3em;
+}
+
+nav {
+    background-color: var(--verde-azul);
+    padding: 10px;
+}
+
+main {
+    background-color: white;
+    margin: auto;
+    width: 1000px;
+    padding: 20px;
+}
+
+main h1 {
+    font-family: 'Idroid';
+    font-size: 1.8em;
+}
+
+main p {
+    margin: 10px 0px 10px 0px
+}
