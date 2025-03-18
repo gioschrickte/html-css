@@ -40,6 +40,16 @@ menu {
     display: none;
 }
 
+.some {
+    display: none;
+    transition-duration: 5s;
+}
+
+.apareceu {
+    display: block;
+    transition-duration: 5s;
+}
+
 menu > ul > li > a{
     display: block;
     text-decoration: none;

@@ -33,18 +33,18 @@
     </main>
     <script>
         function clickMenu(){
-            if (itens.style.display == 'block') {
-                itens.style.display = 'none'
+            if (document.getElementById("itens").className == 'apareceu') {
+                document.getElementById("itens").className = 'some'                
             } else {
-                itens.style.display = 'block'
+                document.getElementById("itens").className = 'apareceu'              
             }
         }
 
         function mudouTamanho(){
             if (window.innerWidth >= 768) {
-                itens.style.display = 'block'
+                document.getElementById("itens").className = 'apareceu'           
             } else {
-                itens.style.display = 'none'
+                document.getElementById("itens").className = 'some'            
             }
         }
     </script>
