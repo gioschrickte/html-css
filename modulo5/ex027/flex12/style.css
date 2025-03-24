@@ -27,7 +27,6 @@ header{
 }
 
 header > h1{
-    border: 1px dotted black;
     font-size: 2.5em;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.548);
 }
@@ -39,8 +38,6 @@ header > nav {
     align-items: center;
 
     flex: 0 0 none;
-
-    border: 1px dotted black;
 }
 
 header > nav > a {
