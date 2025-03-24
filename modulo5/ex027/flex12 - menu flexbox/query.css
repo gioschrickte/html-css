@@ -1,0 +1,19 @@
+header {
+    flex-flow: column nowrap;
+    align-items: stretch;
+}
+
+header > h1 {
+    text-align: center;
+}
+
+header > nav {
+    flex-flow: column nowrap;
+    
+    align-items: stretch;
+    text-align: center;
+}
+
+header > nav > a{
+    margin-top: 10px;
+}

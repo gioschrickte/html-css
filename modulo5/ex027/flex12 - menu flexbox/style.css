@@ -15,6 +15,13 @@ body{
 }
 
 header{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content:flex-start;
+    
+
     background-color: grey;
     color: white;
     padding: 10px;
@@ -22,10 +29,32 @@ header{
 
 header > h1{
     border: 1px dotted black;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.548);
 }
 
 header > nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    flex: 0 0 none;
+
     border: 1px dotted black;
+}
+
+header > nav > a {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    margin-left: 10px;
+}
+
+header > nav > a:hover{
+    background-color: rgb(73, 73, 73);
 }
 
 main{
