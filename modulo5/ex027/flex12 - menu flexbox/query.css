@@ -8,6 +8,7 @@ header > h1 {
 }
 
 header > nav {
+    display: none;
     flex-flow: column nowrap;
     
     align-items: stretch;
@@ -16,4 +17,19 @@ header > nav {
 
 header > nav > a{
     margin-top: 10px;
+}
+
+
+#burguer {
+    display: block;
+    margin-top: 5px;
+    padding: 5px;
+    background-color: black;
+    text-align: center;
+}
+
+#burguer:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 0.2s;
 }

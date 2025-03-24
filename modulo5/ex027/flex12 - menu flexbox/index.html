@@ -6,11 +6,13 @@
     <title>Menu Flexbox</title>
     <link rel="stylesheet" href="style.css" media="all">
     <link rel="stylesheet" href="query.css" media="screen and (max-width: 575px)">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
 </head>
 <body>
     <header>
         <h1>Meu site</h1>
-        <nav>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <nav id="itens">
             <a href="#">Opção 1</a>
             <a href="#">Opção 2</a>
             <a href="#">Opção 3</a>
@@ -24,5 +26,17 @@
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos libero inventore, quo harum soluta hic amet, esse rerum ipsa totam doloribus mollitia. Facilis assumenda, maiores quod sapiente aut ad atque! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae, neque magnam numquam adipisci ut saepe? Unde tempore, iure ea eius at et doloremque, eligendi totam blanditiis possimus consectetur sequi magnam.</p>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit nihil voluptatibus incidunt cumque cupiditate, tenetur doloribus eligendi atque dignissimos? Autem perferendis facere laudantium optio repellat iste. Officiis ducimus consequatur tempore?</p>
     </main>
+
+    <script>
+        function clickMenu(){
+            if (document.getElementById("itens").className == 'apareceu') {
+                document.getElementById("itens").className = 'nada'                
+            } else {
+                document.getElementById("itens").className = 'apareceu'              
+            }
+        }
+
+        
+    </script>
 </body>
 </html>
